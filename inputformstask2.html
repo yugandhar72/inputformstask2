@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputforms</title>
+</head>
+
+<body style="text-align: center;">
+    <form action="">
+        <div>
+            <h2><strong>Class Registration</strong></h2>
+            <p>Fill out the form carefully for registation</p>
+        </div>
+        <div>
+            <label for="studentname"><strong>Student Name</strong></label>
+            <input type="text" id="studentname" name="studentname" placeholder="First Name" required>
+            <input type="text" id="studentname" name="studentname" placeholder="Middle Name" required>
+            <input type="text" id="studentname" name="studentname" placeholder="Last Name" required>
+        </div>
+        <div>
+            <label for="gender"><strong>Gender</strong></label>
+            <select name="Gender" id="gender" required>
+                <option value="Gender">please Select </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="email"><strong>Student E-mail</strong></label>
+            <input type="email" id="email" name="email" placeholder="ex:myname@example.com">
+        </div>
+        <div>
+            <label for="studentid"><strong>Student ID</strong></label>
+            <input type="text" id="studentid" name="studentid" placeholder="">
+
+            <label for="listofclasses"><strong>List of Classes</strong></label>
+            <select name="listofclasses" id="listofclasses" required>
+                <option value="listofclasses">please Select </option>
+                <option value="listofclasses">class1</option>
+                <option value="listofclasses">class2</option>
+                <option value="listofclasses">class3</option>
+                <option value="listofclasses">class4</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+
+    <form action="" method="">
+        <h2><strong>Event Registration Form</strong></h2>
+        <p>please fill out the form below to register for the events.</p>
+
+        <div>
+            <label for="fname"><strong>First Name</strong></label>
+            <input type="text" id="fname" name="fname" placeholder="john" autofocus>
+
+            <label for="lname"><strong>Last Name</strong></label>
+            <input type="text" id="lname" name="lname" placeholder="doe">
+        </div>
+
+        <div>
+            <label for="email"><strong>Email Address</strong></label>
+            <input type="email" id="email" name="email" placeholder="john.doe@Example.com">
+        </div>
+        <div>
+            <label for="phoneno"><strong>phone Number</strong></label>
+            <input type="number" name="phoneno" id="phoneno" placeholder="+1(555) 123-4567">
+        </div>
+        <div>
+            <label for="country"><strong>Country</strong></label>
+            <input list="country" name="country">
+            <datalist id="country">
+                <option value="india">
+                <option value="USA">
+                <option value="UK">
+                <option value="SOUTH AFRIKA">
+            </datalist>
+
+            <label for="DOB"><strong>Date of Birth</strong></label>
+            <input type="date" name="DOB" id="DOB" placeholder="DD/MM/YYYY">
+        </div>
+        <div>
+            <label for="size"><strong>T-Shirt Size</strong></label>
+            <br>
+            <input type="checkbox" name="size" id="small">
+            <label for="small">Small</label>
+            <input type="checkbox" name="size" id="Medium">
+            <label for="Medium">Medium</label>
+            <br>
+            <input type="checkbox" name="size" id="Large">
+            <label for="small">Large</label>
+            <input type="checkbox" name="size" id="Extra Large">
+            <label for="Medium">Extra Large</label>
+        </div>
+    </form>
+    <hr>
+
+
+<form action="">
+    <h1>Emergency Contact Name</h1>
+    <label for="ename"><strong>Emergency Contact Name</strong></label>
+    <input type="text" id="ename" name="ename" placeholder="Jane Smith">
+    <br>
+    <label for="eno"><strong>Emergency Contact Phone Number</strong></label>
+    <input type="number" name="eno" id="eno" placeholder="+1(555)123-4567">
+    <P><input type="checkbox" name="agree" id="agree">i agree to the terms and conditons of this event.</P>
+    <button>Register Now</button>
+</form>
+</body>
+
+</html>
